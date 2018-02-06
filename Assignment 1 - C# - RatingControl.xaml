@@ -1,0 +1,19 @@
+<UserControl x:Class="MovieDatabase.RatingControl"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MovieDatabase"
+        mc:Ignorable="d"
+        d:DesignHeight ="50" d:DesignWidth="280">
+
+    <GroupBox Header = "Rating" >
+        <WrapPanel>
+            <RadioButton x:Name = "RT1" Content = "1*"  Margin= "5" />
+            <RadioButton x:Name = "RT2" Content = "2*"  Margin = "5" />
+            <RadioButton x:Name = "RT3" Content = "3*"  Margin = "5" />
+            <RadioButton x:Name = "RT4" Content = "4*"  Margin = "5" />
+            <RadioButton x:Name = "RT5" Content = "5*"   Margin = "5" />
+        </WrapPanel>
+    </GroupBox>
+</UserControl>
