@@ -1,0 +1,25 @@
+<UserControl x:Class="MovieDatabase.GenreControl"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MovieDatabase"
+        mc:Ignorable="d"
+       d:DesignHeight ="95" d:DesignWidth ="280">
+
+    <GroupBox Header = "Genres" >
+        <WrapPanel>
+            <RadioButton x:Name = "Comedy" Content = "Comedy" Margin = "5" FontSize="10" FontWeight="Medium" />
+            <RadioButton x:Name = "Drama" Content = "Drama" Margin = "5" FontSize="10" FontWeight="Medium"/>
+            <RadioButton x:Name = "Action" Content = "Action" Margin = "5" FontSize="10" FontWeight="Medium" />
+            <RadioButton x:Name = "Fiction" Content = "Fiction" Margin = "5" FontSize="10" FontWeight="Medium" />
+            <RadioButton x:Name = "Horror" Content = "Horror" Margin = "5" FontSize="10" FontWeight="Medium"/>
+            <RadioButton x:Name = "Romance" Content = "Romance" Margin = "5"  FontSize="10" FontWeight="Medium"/>
+            <RadioButton x:Name = "SciFi" Content = "Sci-Fi" Margin = "5" FontSize="10" FontWeight="Medium"/>
+            <RadioButton x:Name = "Western" Content = "Western" Margin = "5" FontSize="10" FontWeight="Medium" />
+            <RadioButton x:Name = "Family" Content = "Family" Margin = "5" FontSize="10" FontWeight="Medium" />
+            <RadioButton x:Name = "Thriller" Content = "Thriller" Margin = "5" FontSize="10" FontWeight="Medium" />
+            <RadioButton x:Name = "War" Content = "War" Margin = "5" FontSize="10" FontWeight="Medium" />
+        </WrapPanel>
+    </GroupBox>
+</UserControl>
